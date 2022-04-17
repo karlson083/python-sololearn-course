@@ -1,5 +1,7 @@
-msg = "Hello world!"
 file = open("newfile.txt", "w")
-amount_written = file.write(msg)
-print(amount_written)
+file.write("This has been written to a file")
+file.close()
+
+file = open("newfile.txt", "r")
+print(file.read())
 file.close()
