@@ -1,7 +1,7 @@
-file = open("newfile.txt", "w")
+file = open("4801.txt", "w")
 file.write("This has been written to a file")
 file.close()
 
-file = open("newfile.txt", "r")
+file = open("4801.txt", "r")
 print(file.read())
 file.close()
